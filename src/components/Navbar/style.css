@@ -1,0 +1,373 @@
+/* navbar */
+.navbar {
+  background: linear-gradient(180deg, #081c42 0%, rgba(15, 105, 170, 0.62) 100%) transparent 90%;
+  box-shadow: 0px 4px 5px rgba(8, 7, 7, 0.1);
+  position: absolute;
+  width: 100%;
+  height: 68px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*logo firebar */
+.navbar-logo {
+  width: 148px;
+  height: 36px;
+  top: 16px;
+  left: 82px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+}
+
+/* anime e manga */
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 0.1rem;
+  list-style: none;
+  text-align: center;
+  width: 50vw;
+  justify-content: center;
+}
+
+.nav-item {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 40px 40px;
+  height: 20%;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white-light);
+  font-family: var(--primary-font-family);
+}
+
+/* favoritos */
+.favorite {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 9rem;
+  margin-top: -1.2rem;
+}
+.favorite-icon {
+  display: flex;
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (max-width: 1600px) {
+  /* navbar */
+  .navbar {
+    background: linear-gradient(180deg, #081c42 0%, rgba(15, 105, 170, 0.62) 100%) transparent 90%;
+    box-shadow: 0px 4px 5px rgba(8, 7, 7, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 68px;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*logo firebar */
+  .navbar-logo {
+    width: 148px;
+    height: 36px;
+    top: 16px;
+    left: 82px;
+    display: flex;
+    position: absolute;
+    background-size: cover;
+  }
+
+  /* anime e manga */
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 0.1rem;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: center;
+  }
+
+  .nav-item {
+    height: 40px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 40px 40px;
+    height: 20%;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-light);
+    font-family: var(--primary-font-family);
+  }
+
+  /* favoritos */
+  .favorite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5.5rem;
+    margin-top: -1.2rem;
+  }
+  .favorite-icon {
+    display: flex;
+    height: 24px;
+    width: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* navbar */
+  .navbar {
+    height: 60px;
+  }
+
+  /*logo firebar */
+  .navbar-logo {
+    height: 28px;
+    left: 70px;
+  }
+
+  /* anime e manga */
+  .nav-menu {
+    width: 60vw;
+  }
+
+  .nav-links {
+    padding: 35px 30px;
+    height: 20%;
+    font-size: 14px;
+  }
+
+  /* favoritos */
+  .favorite {
+    padding-right: 6rem;
+    margin-top: -20px;
+  }
+  .favorite-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* navbar */
+  .navbar {
+    width: 100%;
+    height: 58px;
+  }
+
+  /*logo firebar */
+  .navbar-logo {
+    width: 120px;
+    height: 20px;
+    left: 40px;
+  }
+
+  /* anime e manga */
+  .nav-menu {
+    width: 60vw;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: 10px;
+  }
+
+  /* favoritos */
+  .favorite {
+    padding-right: 5rem;
+  }
+  .favorite-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 760) {
+  .navbar {
+    height: 50px;
+  }
+  /*logo firebar */
+  .navbar-logo {
+    height: 14px;
+    width: 63px;
+    left: 7px;
+    top: 16px;
+    border-radius: 0px;
+  }
+
+  /* anime e manga */
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 0.1rem;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .nav-item {
+    height: 40px;
+  }
+
+  .nav-links {
+    padding: 26px 5px;
+    height: 20%;
+    font-size: 10px;
+    line-height: 24px;
+  }
+
+  /* favoritos */
+  .favorite {
+    padding-right: 1.5rem;
+    margin-top: -18px;
+  }
+  .favorite-icon {
+    height: 10.53px;
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .navbar {
+    height: 50px;
+  }
+  .navbar-logo {
+    left: 15px;
+  }
+
+  .nav-links {
+    padding: 26px 10px;
+  }
+
+  /* favoritos */
+  .favorite {
+    padding-right: 1.5rem;
+    margin-top: -18px;
+  }
+  .favorite-icon {
+    height: 10.53px;
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /*logo firebar */
+  .navbar-logo {
+    height: 14px;
+    width: 63px;
+    left: 7px;
+    top: 16px;
+    border-radius: 0px;
+  }
+
+  /* anime e manga */
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 0.1rem;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .nav-item {
+    height: 40px;
+  }
+
+  .nav-links {
+    padding: 26px 5px;
+    height: 20%;
+    font-size: 10px;
+    line-height: 24px;
+  }
+
+  /* favoritos */
+  .favorite {
+    padding-right: 1.5rem;
+    margin-top: -18px;
+  }
+  .favorite-icon {
+    height: 10.53px;
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* navbar */
+  .navbar {
+    width: 375px;
+    height: 50px;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*logo firebar */
+  .navbar-logo {
+    height: 14px;
+    width: 63px;
+    left: 7px;
+    top: 16px;
+    border-radius: 0px;
+  }
+
+  /* anime e manga */
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 0.1rem;
+    list-style: none;
+    text-align: center;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .nav-item {
+    height: 40px;
+  }
+
+  .nav-links {
+    padding: 26px 5px;
+    height: 20%;
+    font-size: 10px;
+    line-height: 24px;
+  }
+
+  /* favoritos */
+  .favorite-icon {
+    height: 10.53px;
+    width: 12px;
+    display: flex;
+    position: absolute;
+    padding-right: 1px;
+    margin-top: 10px;
+  }
+}

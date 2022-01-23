@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --white-light: #ffffff;
+  --primary-font-family:"Poppins", sans-serif;
+  --second-font-family: font-family: 'DM Sans', sans-serif;
+;
+}
+
+html,
+body {
+  font-style: normal;
+  background-color: #081C42;
+}
